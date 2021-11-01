@@ -1,0 +1,24 @@
+"How does the internet work? What happens when you click a link?"
+
+When you click on a link, a request is sent from the computer you are using to a separate computer or server with much larger memory and processing power. 
+
+This request uses a method, or algorithmic style of the Hypertext Transfer Protocol to either send information, retrieve information, or have data processed and the result returned for action by the web page.
+
+The four methods of requesting covered so far include GET, POST, PUT, and DELETE.
+GET is a simple request for data from the browser to the server.
+POST sends new information to the server for action.
+PUT creates a new node of information where specified.
+DELETE removes information.
+
+Three of the request types are idempotent, meaning they are independent of other requests, do not affect the state of the server, and are self-contained. Only POST is not idempotent.
+
+The most common responsed types are Hypertext Markup Language or HTML, Javascript, Cascading Style Sheets or CSS, Javascript Object Notation or JSON, and image files.
+
+HTML contains instructions on how to render a page within the capabilities of HTML.
+Javascript contains code to be executed locally.
+CSS are instructions on how to layer styles atop the HTML.
+JSON are data sets to be used by Javascript.
+
+HTTPS is the most common protocol, permitting encrypted communication from end to end along the path between server and browser.
+
+Javascript relies on the large memory and processing power of modern client-side computers like desktops and laptops to host a certain amount of executable code on the client computer. This code executes relatively simple instructions locally, saving bandwidth and increasing speed. 
